@@ -20,6 +20,14 @@ namespace ColorSpheres
             this.alpha = alpha;
         }
 
+        public Color(byte red, byte green, byte blue)
+        {
+            this.red = red;
+            this.green = green;
+            this.blue = blue;
+            alpha = 255;
+        }
+
         public byte GetRed() => red;
         public byte GetGreen() => green;
         public byte GetBlue() => blue;
