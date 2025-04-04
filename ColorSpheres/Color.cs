@@ -37,5 +37,10 @@ namespace ColorSpheres
         public byte GetGreen() => green;
         public byte GetBlue() => blue;
         public byte GetAlpha() => alpha;
+
+        public override string ToString()
+        {
+            return $"RGBA({red}, {green}, {blue}, {alpha})";
+        }
     }
 }
