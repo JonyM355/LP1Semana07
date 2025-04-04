@@ -31,5 +31,9 @@ namespace ColorSpheres
         }
 
         public int GetTimesThrown() => times_thrown;
+
+        public Color GetColor() => color;
+
+        public bool IsPopped() => radius == 0;
     }
 }
