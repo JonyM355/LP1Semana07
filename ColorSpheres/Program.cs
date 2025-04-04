@@ -17,10 +17,10 @@ namespace ColorSpheres
 
             //create spheres
             Sphere s1 = new Sphere(red, 10);
-            Sphere s2 = new Sphere(green, 10);
-            Sphere s3 = new Sphere(blue, 10);
-            Sphere s4 = new Sphere(yellow, 10);
-            Sphere s5 = new Sphere(grey, 10);
+            Sphere s2 = new Sphere(green, 5);
+            Sphere s3 = new Sphere(blue, 3);
+            Sphere s4 = new Sphere(yellow, 50);
+            Sphere s5 = new Sphere(grey, 197);
 
             //Sphere methods
             s1.Pop();
