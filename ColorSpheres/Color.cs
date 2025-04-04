@@ -28,6 +28,11 @@ namespace ColorSpheres
             alpha = 255;
         }
 
+        public byte GetGrey()
+        {
+            return (byte)((red + blue + green) / 3);
+        }
+
         public byte GetRed() => red;
         public byte GetGreen() => green;
         public byte GetBlue() => blue;
