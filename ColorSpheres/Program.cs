@@ -25,7 +25,6 @@ namespace ColorSpheres
             //Sphere methods
             s1.Pop();
             s1.Throw();
-            s1.GetTimesThrown();
             Console.WriteLine($"Esfera 1:");
             Console.WriteLine($"Color: {s1.GetColor()}");
             Console.WriteLine($"Times throwned: {s1.GetTimesThrown()}");
@@ -35,7 +34,6 @@ namespace ColorSpheres
             s2.Throw();
             s2.Throw();
             s2.Throw();
-            s2.GetTimesThrown();
             Console.WriteLine($"Esfera 2:");
             Console.WriteLine($"Color: {s2.GetColor()}");
             Console.WriteLine($"Times throwned: {s2.GetTimesThrown()}");
@@ -45,7 +43,6 @@ namespace ColorSpheres
             s3.Throw();
             s3.Pop();
             s3.Throw();
-            s3.GetTimesThrown();
             Console.WriteLine($"Esfera 3:");
             Console.WriteLine($"Color: {s3.GetColor()}");
             Console.WriteLine($"Times throwned: {s3.GetTimesThrown()}");
@@ -54,7 +51,6 @@ namespace ColorSpheres
             s4.Pop();
             s4.Throw();
             s4.Throw();
-            s4.GetTimesThrown();
             Console.WriteLine($"Esfera 4:");
             Console.WriteLine($"Color: {s4.GetColor()}");
             Console.WriteLine($"Times throwned: {s4.GetTimesThrown()}");
@@ -65,7 +61,6 @@ namespace ColorSpheres
             s5.Throw();
             s5.Throw();
             s5.Throw();
-            s5.GetTimesThrown();
             Console.WriteLine($"Esfera 5:");
             Console.WriteLine($"Color: {s5.GetColor().GetGrey()}");
             Console.WriteLine($"Times throwned: {s5.GetTimesThrown()}");
