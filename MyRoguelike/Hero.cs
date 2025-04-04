@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace MyRoguelike
 {
     public class Hero
@@ -19,11 +13,16 @@ namespace MyRoguelike
 
             set
             {
-                xp = value;
+                xp += value;
+                if (value > xp)
+                {
+                    xp = value;
+                }
             }
         }
-        public int Level => XP / 100;
-        
+
+        public int Level => 1 + XP / 1000;
+
         public float Health
         {
             get
@@ -44,13 +43,7 @@ namespace MyRoguelike
             }
         }
 
-        public float MaxHealth
-        {
-            get
-            {
-                return (float)100 + (Level - 1) * 20;
-            }
-        }
+        public float MaxHealth => (float)100 + (Level - 1) * 20;
 
         public void TakeDamage(float damage)
         {
