@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorSpheres", "ColorSpheres\ColorSpheres.csproj", "{13AD5791-B15A-4E42-B10C-6A3A45AC2EE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterColorSpheres", "BetterColorSpheres\BetterColorSpheres.csproj", "{842CE310-8CBF-4C0D-8148-062C352862AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{13AD5791-B15A-4E42-B10C-6A3A45AC2EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13AD5791-B15A-4E42-B10C-6A3A45AC2EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13AD5791-B15A-4E42-B10C-6A3A45AC2EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842CE310-8CBF-4C0D-8148-062C352862AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842CE310-8CBF-4C0D-8148-062C352862AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842CE310-8CBF-4C0D-8148-062C352862AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842CE310-8CBF-4C0D-8148-062C352862AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

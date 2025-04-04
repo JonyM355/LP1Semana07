@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
+using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,33 +9,27 @@ namespace BetterColorSpheres
 {
     public class Sphere
     {
-        private Color Color { get; }
-        private float radius;
-        private int times_thrown;
+        public Color Color { get; }
+        public float Radius { get; private set; }
+        public int Times_thrown { get; private set; }
 
         public Sphere(Color color, float radius)
         {
             Color = color;
-            this.radius = radius;
-            times_thrown = 0;
+            Radius = radius;
+            Times_thrown = 0;
         }
 
-        public int Throw()
+        public void Throw()
         {
-            if (radius > 0) 
+            if (Radius > 0) 
             {
-                times_thrown++;
+                Times_thrown++;
             }
-
-            return times_thrown;
         }
 
-        public void Pop() => radius = 0;
+        public void Pop() => Radius = 0;
 
-        public int GetTimesThrown() => times_thrown;
-
-        public Color GetColor() => Color;
-
-        public bool IsPopped() => radius == 0;
+        public bool IsPopped() => Radius == 0;
     }
 }
